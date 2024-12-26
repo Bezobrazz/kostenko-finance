@@ -18,7 +18,7 @@ const HeroSection = () => {
                 href="#"
                 className="bg-main text-white rounded-[4px] px-8 py-3 text-base font-medium hover:bg-indigo-700"
               >
-                Дізнатися більше
+                Продовжити читати
               </a>
             </div>
           </div>
