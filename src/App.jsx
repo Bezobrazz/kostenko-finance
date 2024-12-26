@@ -1,9 +1,9 @@
-import "./App.css";
+import NavBar from "./assets/components/NavBar/NavBar.jsx";
 
 function App() {
   return (
     <>
-      <h1>В'ячеслав Костенко</h1>
+      <NavBar />
     </>
   );
 }
