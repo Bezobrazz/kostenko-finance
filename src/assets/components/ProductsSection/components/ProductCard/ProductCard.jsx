@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const ProductCard = ({ image, title, description, price }) => {
   return (
     <div className="bg-white overflow-hidden shadow rounded-lg">
