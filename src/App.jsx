@@ -1,3 +1,4 @@
+import CommunitySection from "./assets/components/CommunitySection/CommunitySection.jsx";
 import HeroSection from "./assets/components/HeroSection/HeroSection.jsx";
 import NavBar from "./assets/components/NavBar/NavBar.jsx";
 import ProductsSection from "./assets/components/ProductsSection/ProductsSection.jsx";
@@ -11,6 +12,7 @@ function App() {
         <HeroSection />
         <ProductsSection />
         <Testimonials />
+        <CommunitySection />
       </main>
     </>
   );
