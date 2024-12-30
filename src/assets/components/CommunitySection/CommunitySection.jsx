@@ -13,14 +13,18 @@ const CommunitySection = () => {
             </p>
             <div className="mt-8 space-y-4">
               <a
-                href="#"
+                href="https://www.youtube.com/@%D0%92%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D0%9A%D0%BE%D1%81%D1%82%D0%B5%D0%BD%D0%BA%D0%BE"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center bg-red-600 text-white !rounded-button px-6 py-3 text-base font-medium hover:bg-red-700"
               >
                 <i className="fab fa-youtube mr-3"></i>
                 YouTube канал
               </a>
               <a
-                href="#"
+                href="https://t.me/viacheslavkostenko"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center bg-blue-500 text-white !rounded-button px-6 py-3 text-base font-medium hover:bg-blue-600"
               >
                 <i className="fab fa-telegram mr-3"></i>
@@ -31,9 +35,10 @@ const CommunitySection = () => {
           {/* Right Section */}
           <div className="mt-8 lg:mt-0">
             <img
-              src="https://creatie.ai/ai/api/search-image?query=Social media content creation setup with modern devices and creative elements, clean background&width=600&height=400&orientation=landscape&flag=7686ff4c-7b88-42e5-9d2d-07a80839ecd8&flag=1a29a735-6465-43cc-b77d-013c20b59dd5"
+              src="/public/CommunitySection/social-media.jpg"
               alt="Social Media"
-              className="rounded-lg shadow-lg"
+              width="600"
+              className="rounded-lg shadow-lg w-full"
             />
           </div>
         </div>
