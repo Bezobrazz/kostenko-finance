@@ -24,7 +24,7 @@ const HeroSection = () => {
           </div>
           <div className="mt-12 relative shadow-lg sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
             <img
-              src="/public/HeroSection/hero-photo.jpg"
+              src="/HeroSection/hero-photo.jpg"
               className="w-full rounded-[4px]"
               alt="Hero Image"
             />

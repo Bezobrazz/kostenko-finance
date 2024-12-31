@@ -35,7 +35,7 @@ const CommunitySection = () => {
           {/* Right Section */}
           <div className="mt-8 lg:mt-0">
             <img
-              src="/public/CommunitySection/social-media.jpg"
+              src="/CommunitySection/social-media.jpg"
               alt="Social Media"
               width="600"
               className="rounded-lg shadow-lg w-full"

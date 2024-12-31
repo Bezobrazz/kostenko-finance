@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const TestimonialItem = ({ image, title, description, role }) => {
   return (
     <div className="flex flex-col justify-center items-center mb-4">
@@ -9,7 +10,7 @@ const TestimonialItem = ({ image, title, description, role }) => {
         {Array.from({ length: 5 }).map((_, index) => (
           <img
             key={index}
-            src="../../../../../../public/Carousel/star.svg"
+            src="/Carousel/star.svg"
             width={16}
             height={16}
             alt="star"
